@@ -9,7 +9,7 @@ npm install meteor-logger
 
 ```
 
-#### Use
+#### Init the logger
 
 ```
 import MeteorLogger from 'meteor-logger';
@@ -17,22 +17,30 @@ import MeteorLogger from 'meteor-logger';
 MeteorLogger.init()
 ```
 
-#### MeteorLogger.init(options):
+**MeteorLogger.init(options):**
 
 Parameter | Type | Description
 ------|------ | -------------
 options.showTimeStamp | boolean | Add a timestamp to every console.log, Default is true.
 options.customPrefix | function |  A function that returns the string which will be prefixed to every console.log invocation.
 
-example:
+Example:
 
 ```
 import MeteorLogger from 'meteor-logger';
 
 const options = {
   showTimeStamp: false,
-  customPrefix: function() { return `APP LOG[${new Date().getTime()}]`}
+  customPrefix: function() { return `APP LOG[${new Date().getTime()}]: `}
 }
 MeteorLogger.init(options)
 
+console.log('Hello World')
+// APP LOG[1509812506800]: Hello World
+```
+
+#### Reset the logger
+
+```
+MeteorLogger.reset()
 ```
