@@ -1,5 +1,5 @@
 # meteor-logger
-Override console.log inside meteor project
+Override console.log for meteor projects
 
 
 #### Install
@@ -17,7 +17,7 @@ import MeteorLogger from 'meteor-logger';
 MeteorLogger.init()
 ```
 
-**MeteorLogger.init(options):**
+MeteorLogger.init(options):
 
 Parameter | Type | Description
 ------|------ | -------------
