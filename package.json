@@ -1,5 +1,5 @@
 {
-  "name": "meteor-logger",
+  "name": "@knotel/meteor-logger",
   "version": "0.1.0",
   "description": "Override console.log with time stamps",
   "main": "main.js",
