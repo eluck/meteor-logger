@@ -25,6 +25,13 @@ const DateLogger = {
   },
 
 
+  reset: function() {
+    ['log', 'info', 'warn', 'error'].forEach(function(func) {
+      if (DateLogger.originals[func]) console[func] = DateLogger.originals[func];
+    });
+  },
+
+
   listeningRegexp: /^LISTENING$/
 }
 
