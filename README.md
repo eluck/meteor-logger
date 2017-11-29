@@ -1,5 +1,5 @@
 # meteor-logger
-Override console.log for meteor projects
+Prepends console
 
 
 #### Install
