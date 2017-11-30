@@ -11,7 +11,7 @@ npm install @knotel/meteor-logger
 #### Init the logger
 
 ```
-import MeteorLogger from 'meteor-logger';
+import MeteorLogger from '@knotel/meteor-logger';
 MeteorLogger.init()
 ```
 
@@ -19,7 +19,7 @@ MeteorLogger.init()
 Example:
 
 ```
-import MeteorLogger from 'meteor-logger';
+import MeteorLogger from '@knotel/meteor-logger';
 MeteorLogger.init(options)
 console.log('Hello World')
 // APP LOG[1509812506800]: Hello World
