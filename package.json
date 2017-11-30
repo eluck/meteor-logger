@@ -1,13 +1,10 @@
 {
   "name": "@knotel/meteor-logger",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "description": "Override console.log with time stamps",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -p",
-    "watch": "webpack --watch --progress",
-    "prepublish": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,19 +14,10 @@
     "meteor",
     "logger"
   ],
-  "author": "Gaurav Chikhale",
+  "author": "Gaurav Chikhale & Evgeny Lukianchikov",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/knotel/meteor-logger/issues"
   },
-  "homepage": "https://github.com/knotel/meteor-logger#readme",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-es2015": "^6.24.1",
-    "webpack": "^3.8.1"
-  }
+  "homepage": "https://github.com/knotel/meteor-logger#readme"
 }
