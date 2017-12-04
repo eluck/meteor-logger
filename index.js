@@ -1,4 +1,4 @@
-const DateLogger = {
+var DateLogger = {
   init: function() {
     DateLogger.originalConsole = console;
     DateLogger.originals = {};
